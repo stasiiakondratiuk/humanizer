@@ -45,6 +45,31 @@ AI vocabulary, copula avoidance, participial padding, hedging, sycophancy + **co
 
 Каждая секция — с таблицами замен и примерами «до/после» в домене маркетинга.
 
+## Структура
+
+```
+SKILL.md            маршрутизатор + общая логика (форматы, запреты, голос, калибровка)
+references/ru.md    русские паттерны + пример
+references/uk.md    украинские паттерны (движок русизмов) + пример
+references/en.md    английские паттерны + пример
+evals/              тест-кейсы «до/после» на 3 языка + раннер
+```
+
+`SKILL.md` определяет язык и подгружает нужный `references/*.md` — прогрессивная загрузка, а не один тяжёлый файл.
+
+## Evals
+
+`evals/cases.jsonl` — 27 кейсов (9 RU / 9 UK / 9 EN) с маркерами `banned` (должны исчезнуть) и `keep` (факты должны остаться). Раннер на чистом stdlib:
+
+```bash
+cd evals
+python check.py --validate     # структура набора
+python check.py --selftest      # эталоны сами чисты (27/27)
+python check.py --id ru-03 --text "ваш вывод скилла"
+```
+
+Подробности — в [`evals/README.md`](evals/README.md).
+
 ## Лицензия
 
 MIT.
