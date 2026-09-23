@@ -59,6 +59,17 @@ One-line paragraphs for drama, "Let that sink in.", "Read that again.", "I was h
 ### 11. False ranges & empty upbeat endings
 "From strategy to execution, from design to delivery..." → plain list. "The future looks bright.", "Exciting times ahead." → a concrete plan or number.
 
+## HUMAN PHRASES (EN) [adds a person, but in small doses]
+
+Real people sometimes open on a tone, not straight on the claim. Use **rarely and only where it fits** — one or two per text, not at the top of every paragraph, or it becomes its own template.
+
+- **Honest opener:** "Honestly, …", "I'll be straight with you:", "In plain terms:", "Quick version:", "Let me show you with an example."
+- **Real reaction / doubt (where first person is honest):** "I think…", "Not sure, but…", "It depends, honestly."
+- **Conversational connectors instead of corporate ones:** "and", "but here's what matters", "so" — over "furthermore/moreover".
+- **Bridge to the action:** "Send me your current page and I'll tell you straight what's off.", "Message me and I'll show you how it'd look for you."
+
+⚠️ Not for formal proposals that need a measured tone. And don't turn it into a new tic — avoid the overused "Here's the thing:", "Let that sink in.", "Read that again." (already banned as broetry).
+
 ## STYLE (EN)
 Living, conversational-professional voice; explainer tone. Vary sentence length — short punchy lines next to longer ones. Concrete nouns and numbers over abstractions. Sentence case for headings. Bold only where it truly matters. First person where it's honest.
 
